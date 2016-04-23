@@ -32,3 +32,7 @@ void worker::workerDoWork(size_t tNum){
 	pthread_mutex_unlock(&mutualLocker->at(tNum));
 }
 ```
+
+
+#####Example given in Source.cpp file
+
